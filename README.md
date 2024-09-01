@@ -1,2 +1,2 @@
 # ercot-pipeline
-Create a dashboard for wind and solar energy production in Texas
+A dashboard for wind and solar energy production in Texas
