@@ -1,6 +1,11 @@
 {
   "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
   "features": {
-    "ghcr.io/devcontainers/features/nix:1": {}
+    "ghcr.io/duduribeiro/devcontainer-features/neovim:1": {
+      "version": "stable"
+    },
+    "ghcr.io/duduribeiro/devcontainer-features/tmux:1": {
+      "version": "latest"
+    }
   }
 }
