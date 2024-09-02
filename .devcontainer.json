@@ -9,7 +9,6 @@
     },
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "npm"
-    },
-    "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {}
+    }
   }
 }
