@@ -1,6 +1,6 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
   "features": {
-    "ghcr.io/devcontainers-contrib/features/nix:1": {}
+    "ghcr.io/devcontainers/features/nix:1": {}
   }
 }
