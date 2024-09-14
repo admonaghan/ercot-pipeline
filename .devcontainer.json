@@ -1,5 +1,8 @@
 {
   "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
+  "forwardPorts": [
+    8501
+  ],
   "features": {
     "ghcr.io/duduribeiro/devcontainer-features/neovim:1": {
       "version": "stable"
@@ -9,6 +12,9 @@
     },
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "npm"
+    },
+    "ghcr.io/eitsupi/devcontainer-features/duckdb-cli:1": {
+      "version": "latest"
     }
   }
 }
